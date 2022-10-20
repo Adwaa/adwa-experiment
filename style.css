@@ -1,0 +1,130 @@
+.content-about-heading{
+    margin-top: -300px;
+    text-align: center;
+    margin-bottom: 10rem;
+    color: #f9fafb !important;
+}
+
+
+@media (min-width: 992px){
+    .col-md-6 {
+        
+        margin-top: 160px;
+        margin-bottom: 5rem;
+    }
+    } 
+
+.btn-primary {
+    color: #fff;
+    background-color: #065cb4;
+    border-color: #065cb4;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    outline:none;
+    cursor: pointer;
+    
+   
+    border-radius: 0;
+
+}
+
+
+
+.section-about{
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.color-color-ovrlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 760px) {
+
+    .section-about{
+        
+        min-height: 60vh;
+}
+
+h3{
+    font-size: calc(1.525rm + 3.3vw);
+}
+
+}
+
+.section{
+    margin-top: -280px;
+}
+.card-text{
+    margin-top: -100px;
+}
+
+
+
+.stage{
+    background-color: #065cb4;
+    color: #065cb4; 
+     margin-bottom: -20px;
+     padding: 80px;
+}
+
+@media (min-width: 992px){
+    .col-md-4 {
+        
+        margin-top: 100px;
+        
+    }
+    } 
+
+.guidline{
+    background-color: #065cb4;
+    color: white; 
+     
+}
+
+.accordion-flush{
+    background-color: #093b6e;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-button {
+    color: white;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    /* padding: 1.5rem; */
+}
+
+.content-about-heading2{
+
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: -120px;
+    color: #065cb4 !important; 
+}
+
+.content{
+    color: white;  
+    text-align: center;
+   
+    
+}
